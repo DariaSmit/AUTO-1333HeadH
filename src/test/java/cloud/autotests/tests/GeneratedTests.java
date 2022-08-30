@@ -18,11 +18,10 @@ public class GeneratedTests extends TestBase {
 
     @Test
     @Description("Проверка страницы вакансии на HH.ru")
-    @DisplayName("DariaSmit")
-    @Story("Проверка заголовков")
+    @DisplayName("Проверка заголовков")
     void generatedTest() {
         step("открыть hh.ru", () -> {
-            Selenide.open("/vacancy/68779132?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=Qa%20automation");
+            Selenide.open("/vacancy/69115572?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=QA%20automation%20engineer");
         });
         step("Проверить заголовки верхний меню", () -> {
             $(".supernova-navi").shouldHave(text("Соискателям"));
@@ -35,8 +34,7 @@ public class GeneratedTests extends TestBase {
 
     @Test
     @Description("Проверка страницы вакансии на HH.ru")
-    @DisplayName("DariaSmit")
-    @Story("Проверка консоли на ошибку SERVE")
+    @DisplayName("Проверка консоли на ошибку SERVE")
     void genTestCon() {
         step("открыть страницу вакансии", () -> {
             Selenide.open("/vacancy/69115572?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=QA%20automation%20engineer");
@@ -50,8 +48,7 @@ public class GeneratedTests extends TestBase {
 
     @Test
     @Description("Проверка страницы вакансии на HH.ru")
-    @DisplayName
-            ("Проверка ключевых слов в описании")
+    @DisplayName("Проверка ключевых слов в описании")
     void genTestText() {
         step("открыть страницу вакансии", () -> {
             Selenide.open("/vacancy/69115572?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=QA%20automation%20engineer");
@@ -63,8 +60,7 @@ public class GeneratedTests extends TestBase {
 
     @Test
     @Description("Проверка страницы вакансии на HH.ru")
-    @DisplayName
-            ("Проверка интерактивности элемента")
+    @DisplayName("Проверка интерактивности элемента")
     void genTestInter() {
         step("открыть страницу вакансии", () -> {
             Selenide.open("/vacancy/69115572?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=QA%20automation%20engineer");

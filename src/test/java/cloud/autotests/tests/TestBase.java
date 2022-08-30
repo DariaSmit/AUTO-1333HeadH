@@ -1,5 +1,6 @@
 package cloud.autotests.tests;
 
+import cloud.autotests.config.CredentialsConfig;
 import cloud.autotests.config.Project;
 import cloud.autotests.helpers.AllureAttachments;
 import cloud.autotests.helpers.DriverSettings;
@@ -9,10 +10,12 @@ import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.junit5.AllureJunit5;
 import io.qameta.allure.selenide.AllureSelenide;
+import org.aeonbits.owner.ConfigFactory;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.extension.ExtendWith;
+import org.openqa.selenium.remote.DesiredCapabilities;
 
 
 @ExtendWith({AllureJunit5.class})
@@ -20,12 +23,19 @@ public class TestBase {
     @BeforeAll
     static void beforeAll() {
         DriverSettings.configure();
-        Configuration.baseUrl="https://hh.ru";
+        Configuration.baseUrl= System.getProperty("baseUrl","https://hh.ru");
+        Configuration.browserSize = "1920x1080";
+        Configuration.browserVersion = "100";
     }
-
     @BeforeEach
     public void beforeEach() {
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
+        CredentialsConfig config = ConfigFactory.create(CredentialsConfig.class);
+
+        DesiredCapabilities capabilities = new DesiredCapabilities();
+        capabilities.setCapability("enableVNC", true);
+        capabilities.setCapability("enableVideo", true);
+        Configuration.browserCapabilities = capabilities;
     }
 
     @AfterEach
@@ -34,7 +44,6 @@ public class TestBase {
 
         AllureAttachments.addScreenshotAs("Last screenshot");
         AllureAttachments.addPageSource();
-//        AllureAttachments.attachNetwork(); // todo
         AllureAttachments.addBrowserConsoleLogs();
 
         Selenide.closeWebDriver();
