@@ -1,6 +1,6 @@
-# Project in Allure TestOps with manual & automated tests
+# Проект по автоматизации тестирования страницы вакансии на HH.ru
 <a target="_blank" href="https://allure.autotests.cloud/project/%s">allure.autotests.cloud/project/%s</a> (ask admin@qa.guru for access)
-
+[Вакансия QA automation engineer](https://khimki.hh.ru/vacancy/69115572?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=QA%20automation%20engineer)
 # Jenkins job
 <a target="_blank" href="https://jenkins.autotests.cloud/job/%s">jenkins.autotests.cloud/job/%s</a>
 
