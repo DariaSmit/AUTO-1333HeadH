@@ -48,7 +48,7 @@ public class GeneratedTests extends TestBase {
 
     @Test
     @Description("Проверка страницы вакансии на HH.ru")
-    @DisplayName("Проверка ключевых слов в описании")
+    @DisplayName("Проверка ключевых слов в описании вакансии")
     void genTestText() {
         step("открыть страницу вакансии", () -> {
             Selenide.open("/vacancy/69115572?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=QA%20automation%20engineer");

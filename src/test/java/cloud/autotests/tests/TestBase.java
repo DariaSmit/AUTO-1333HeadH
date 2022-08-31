@@ -22,10 +22,12 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 public class TestBase {
     @BeforeAll
     static void beforeAll() {
+        CredentialsConfig config = ConfigFactory.create(CredentialsConfig.class);
         DriverSettings.configure();
-        Configuration.baseUrl= System.getProperty("baseUrl","https://hh.ru");
+        Configuration.baseUrl= "https://hh.ru";
         Configuration.browserSize = "1920x1080";
         Configuration.browserVersion = "100";
+        Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
     }
     @BeforeEach
     public void beforeEach() {
