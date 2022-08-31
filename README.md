@@ -33,7 +33,7 @@
 - Проверка кнопки 'Откликнуться' c корректным эмеил
 -------
 # Jenkins сборка
-[Ссылка на сбору в Jenkins](https://jenkins.autotests.cloud/job/xxx_DS_HH/9/)
+[Ссылка на сбору в Jenkins](https://jenkins.autotests.cloud/job/AUTO-1RU.HeadHunter/)
 <img src="https://user-images.githubusercontent.com/110921807/187739733-9b589027-0cb9-4415-b129-eac5d5ecda3f.png" width="60%">
 
 # Allure репорт
