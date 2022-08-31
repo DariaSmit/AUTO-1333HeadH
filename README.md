@@ -1,4 +1,5 @@
-# Проект по автоматизации тестирования страницы вакансии на HH.ru H1
+# Проект по автоматизации тестирования страницы вакансии на HeadHunter.ru
+<img src="https://user-images.githubusercontent.com/110921807/187681376-948f3e33-9e94-4406-b6f1-205efa5cb169.png" width="70%">
 
 [Вакансия QA automation engineer](https://khimki.hh.ru/vacancy/69115572?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=QA%20automation%20engineer)
 -------
@@ -7,6 +8,7 @@
 * Реализованные проверки 
 * Jenkins сборка
 * Allure репорт
+* Allure TestOPs
 * Запуск с терминала
 * Отчет в telegram
 * Видео прохождения тестов
@@ -29,41 +31,36 @@
 - Проверка интерактивности элемента
 - Проверка кнопки 'Откликнуться' с некорректным эмеил
 - Проверка кнопки 'Откликнуться' c корректным эмеил
+-------
+# Jenkins сборка
+[Ссылка на сбору в Jenkins](https://jenkins.autotests.cloud/job/xxx_DS_HH/9/)
 
-# USAGE examples
+# Allure репорт
+<img src="https://user-images.githubusercontent.com/110921807/187643394-8b870885-745f-4227-9de7-3c8064df71bc.png" width="60%">
+-------
 
-### For run remote tests need fill remote.properties or to pass value:
+# Allure TestOPs
 
-* browser (default chrome)
-* browserVersion (default 89.0)
-* browserSize (default 1920x1080)
-* browserMobileView (mobile device name, for example iPhone X)
-* remoteDriverUrl (url address from selenoid or grid)
-* videoStorage (url address where you should get video)
-* threads (number of threads)
+<img src="https://user-images.githubusercontent.com/110921807/187683808-2b299a73-958f-41dc-b54d-2c931108e5bb.png" width="60%">
+------
 
+# Запуск с терминала
+локальный запуск:
+>gradle clean test
+------
 
-Run tests with filled remote.properties:
-```bash
-gradle clean test
-```
+# Отчет в telegram
 
-Run tests with not filled remote.properties:
-```bash
-gradle clean -DremoteDriverUrl=https://%s:%s@selenoid.autotests.cloud/wd/hub/ -DvideoStorage=https://selenoid.autotests.cloud/video/ -Dthreads=1 test
-```
+<img src="https://user-images.githubusercontent.com/110921807/187675403-70a1b3a7-7552-42fc-8eed-81fad3ce67ae.png" width="60%">
+------
 
-Serve report:
-```bash
-allure serve build/allure-results
-```
+# Видео прохождения тестов
 
 
-###### For further development there are some example tests in src/test/java/cloud.autotests/tests/demowebshop
-* remove @Disabled("...") annotation to run tests
-```bash
-gradle clean demowebshop
-```
+https://user-images.githubusercontent.com/110921807/187675751-9bf9f21f-a1ac-4ccc-9399-c63e508956f6.mp4
+------
+
+
 
 :heart: <a target="_blank" href="https://qa.guru">qa.guru</a><br/>
 :blue_heart: <a target="_blank" href="https://t.me/qa_automation">t.me/qa_automation</a>
