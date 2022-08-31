@@ -1,4 +1,5 @@
-# Проект по автоматизации тестирования страницы вакансии на HH.ru H1
+# Проект по автоматизации тестирования страницы вакансии на HeadHunter.ru
+<img src="https://user-images.githubusercontent.com/110921807/187681376-948f3e33-9e94-4406-b6f1-205efa5cb169.png" width="70%">
 
 [Вакансия QA automation engineer](https://khimki.hh.ru/vacancy/69115572?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=QA%20automation%20engineer)
 -------
