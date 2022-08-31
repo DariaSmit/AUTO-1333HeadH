@@ -34,12 +34,14 @@
 -------
 # Jenkins сборка
 [Ссылка на сбору в Jenkins](https://jenkins.autotests.cloud/job/xxx_DS_HH/9/)
+<img src="https://user-images.githubusercontent.com/110921807/187739733-9b589027-0cb9-4415-b129-eac5d5ecda3f.png" width="60%">
 
 # Allure репорт
 <img src="https://user-images.githubusercontent.com/110921807/187643394-8b870885-745f-4227-9de7-3c8064df71bc.png" width="60%">
 -------
 
 # Allure TestOPs
+
 
 <img src="https://user-images.githubusercontent.com/110921807/187683808-2b299a73-958f-41dc-b54d-2c931108e5bb.png" width="60%">
 ------
