@@ -1,0 +1,121 @@
+[ {
+  "uid" : "fe10b7dc1170b35e",
+  "name" : "genTestButton(String, String) проверка эмеил AaaYandex.re и ответа системы Пожалуйста",
+  "time" : {
+    "start" : 1661877504672,
+    "stop" : 1661877516667,
+    "duration" : 11995
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "536e744066757",
+  "name" : "genTestButton()",
+  "time" : {
+    "start" : 1661878102004,
+    "stop" : 1661878116147,
+    "duration" : 14143
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "964de95f4ce3c009",
+  "name" : "проверка кнопки 'Откликнуться'",
+  "time" : {
+    "start" : 1661869335698,
+    "stop" : 1661869342560,
+    "duration" : 6862
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e334c229e23c96fb",
+  "name" : "Проверка интерактивности элемента",
+  "time" : {
+    "start" : 1661878772922,
+    "stop" : 1661878778207,
+    "duration" : 5285
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d912f5b89a914cf4",
+  "name" : "Проверка заголовков",
+  "time" : {
+    "start" : 1661878778210,
+    "stop" : 1661878783300,
+    "duration" : 5090
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f616a30312ab2461",
+  "name" : "Проверка консоли на ошибку SERVE",
+  "time" : {
+    "start" : 1661865865826,
+    "stop" : 1661865872646,
+    "duration" : 6820
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "606a9f306cbf7719",
+  "name" : "Проверка ключевых слов в описании",
+  "time" : {
+    "start" : 1661878767635,
+    "stop" : 1661878772918,
+    "duration" : 5283
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "27b85a7f3cef87be",
+  "name" : "genTestButton()",
+  "time" : {
+    "start" : 1661878761489,
+    "stop" : 1661878767624,
+    "duration" : 6135
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "47ffa000906b6706",
+  "name" : "Проверка консоли на ошибку SERVE",
+  "time" : {
+    "start" : 1661878783303,
+    "stop" : 1661878788884,
+    "duration" : 5581
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ea6d4c7db8c7d18b",
+  "name" : "genTestButtonTr()",
+  "time" : {
+    "start" : 1661878753867,
+    "stop" : 1661878761417,
+    "duration" : 7550
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1b92c27514e9f154",
+  "name" : "genTestButtonTr()",
+  "time" : {
+    "start" : 1661878587058,
+    "stop" : 1661878594331,
+    "duration" : 7273
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "41137a1444d466e9",
+  "name" : "genTestButton(String, String) проверка эмеил Aaa@Yandex.ru и ответа системы null",
+  "time" : {
+    "start" : 1661877516788,
+    "stop" : 1661877532058,
+    "duration" : 15270
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

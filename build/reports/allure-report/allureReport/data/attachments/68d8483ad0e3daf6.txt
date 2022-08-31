@@ -1,0 +1,2 @@
+[2022-08-30T13:08:19.507Z] [SEVERE] chrome-extension://invalid/ - Failed to load resource: net::ERR_FAILED
+[2022-08-30T13:08:21.016Z] [WARNING] https://cstatic.weborama.fr/js/topics/topics.js 10 Unrecognized feature: 'browsing-topics'.

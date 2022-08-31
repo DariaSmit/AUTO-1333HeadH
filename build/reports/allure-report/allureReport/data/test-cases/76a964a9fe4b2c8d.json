@@ -1,0 +1,293 @@
+{
+  "uid" : "76a964a9fe4b2c8d",
+  "name" : "проверка кнопки 'Откликнуться' проверка эмеил Aaa@Yandex.ru и ответа системы Отправить код повторно можно через",
+  "fullName" : "cloud.autotests.tests.ParamTest.genTestButton",
+  "historyId" : "f7795373ec1df04d0c6ccf422935e8ff",
+  "time" : {
+    "start" : 1661871206051,
+    "stop" : 1661871211592,
+    "duration" : 5541
+  },
+  "description" : "Проверка страницы вакансии на HH.ru",
+  "descriptionHtml" : "<p>Проверка страницы вакансии на HH.ru</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "beforeAll",
+    "time" : {
+      "start" : 1661871197699,
+      "stop" : 1661871197780,
+      "duration" : 81
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "beforeEach",
+    "time" : {
+      "start" : 1661871206051,
+      "stop" : 1661871206051,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Проверка страницы вакансии на HH.ru",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "открыть страницу вакансии",
+      "time" : {
+        "start" : 1661871206051,
+        "stop" : 1661871209797,
+        "duration" : 3746
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"open\") https://hh.ru/vacancy/69115572?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=QA%20automation%20engineer",
+        "time" : {
+          "start" : 1661871206052,
+          "stop" : 1661871209797,
+          "duration" : 3745
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"webdriver\") create()",
+          "time" : {
+            "start" : 1661871206052,
+            "stop" : 1661871207206,
+            "duration" : 1154
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "Нажать на кнопку 'Откликнуться'",
+      "time" : {
+        "start" : 1661871209798,
+        "stop" : 1661871209957,
+        "duration" : 159
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".bloko-button_kind-success\") click()",
+        "time" : {
+          "start" : 1661871209798,
+          "stop" : 1661871209957,
+          "duration" : 159
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "ввести эмеил ",
+      "time" : {
+        "start" : 1661871209957,
+        "stop" : 1661871210195,
+        "duration" : 238
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"By.name: login\") click()",
+        "time" : {
+          "start" : 1661871209957,
+          "stop" : 1661871210024,
+          "duration" : 67
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\"By.name: login\") set value(Aaa@Yandex.ru)",
+        "time" : {
+          "start" : 1661871210024,
+          "stop" : 1661871210130,
+          "duration" : 106
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "$(\".signup-submit span\") click()",
+        "time" : {
+          "start" : 1661871210130,
+          "stop" : 1661871210195,
+          "duration" : 65
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 9,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterEach",
+    "time" : {
+      "start" : 1661871210195,
+      "stop" : 1661871211592,
+      "duration" : 1397
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"webdriver\") close()",
+      "time" : {
+        "start" : 1661871210960,
+        "stop" : 1661871211591,
+        "duration" : 631
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "2a7e99b1b5a74485",
+      "name" : "Last screenshot",
+      "source" : "2a7e99b1b5a74485.png",
+      "type" : "image/png",
+      "size" : 765096
+    }, {
+      "uid" : "683bbcf849325c63",
+      "name" : "Page source",
+      "source" : "683bbcf849325c63.html",
+      "type" : "text/html",
+      "size" : 1044587
+    }, {
+      "uid" : "fdcff2f23caef656",
+      "name" : "Browser console logs",
+      "source" : "fdcff2f23caef656.txt",
+      "type" : "text/plain",
+      "size" : 106
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:cloud.autotests.tests.ParamTest]/[test-template:genTestButton(java.lang.String, java.lang.String)]/[test-template-invocation:#2]"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EMSLMPO"
+  }, {
+    "name" : "thread",
+    "value" : "16072@DESKTOP-EMSLMPO.Test worker(14)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "cloud.autotests.tests.ParamTest"
+  }, {
+    "name" : "testClass",
+    "value" : "cloud.autotests.tests.ParamTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "genTestButton"
+  }, {
+    "name" : "suite",
+    "value" : "cloud.autotests.tests.ParamTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "Aaa@Yandex.ru"
+  }, {
+    "name" : "arg1",
+    "value" : "Отправить код повторно можно через"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "76a964a9fe4b2c8d.json",
+  "parameterValues" : [ "Aaa@Yandex.ru", "Отправить код повторно можно через" ]
+}

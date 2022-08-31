@@ -1,0 +1,230 @@
+{
+  "uid" : "9c7330a2f16ddbcc",
+  "name" : "Dariasmit",
+  "fullName" : "cloud.autotests.tests.GeneratedTests.genTestText",
+  "historyId" : "b1a821482ca76894affe97c4c8ba203",
+  "time" : {
+    "start" : 1661876909323,
+    "stop" : 1661876916220,
+    "duration" : 6897
+  },
+  "description" : "Проверка страницы вакансии на HH.ru",
+  "descriptionHtml" : "<p>Проверка страницы вакансии на HH.ru</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "beforeAll",
+    "time" : {
+      "start" : 1661876909198,
+      "stop" : 1661876909280,
+      "duration" : 82
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeEach",
+    "time" : {
+      "start" : 1661876909326,
+      "stop" : 1661876909332,
+      "duration" : 6
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Проверка страницы вакансии на HH.ru",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "открыть страницу вакансии",
+      "time" : {
+        "start" : 1661876909336,
+        "stop" : 1661876914714,
+        "duration" : 5378
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"open\") https://hh.ru/vacancy/69115572?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=QA%20automation%20engineer",
+        "time" : {
+          "start" : 1661876909390,
+          "stop" : 1661876914714,
+          "duration" : 5324
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"webdriver\") create()",
+          "time" : {
+            "start" : 1661876909395,
+            "stop" : 1661876911989,
+            "duration" : 2594
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "проверить название навыков 'CI/CD'",
+      "time" : {
+        "start" : 1661876914714,
+        "stop" : 1661876914824,
+        "duration" : 110
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".vacancy-branded-user-content\") should have(text \"CI/CD\")",
+        "time" : {
+          "start" : 1661876914753,
+          "stop" : 1661876914824,
+          "duration" : 71
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterEach",
+    "time" : {
+      "start" : 1661876914826,
+      "stop" : 1661876916213,
+      "duration" : 1387
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"webdriver\") close()",
+      "time" : {
+        "start" : 1661876915597,
+        "stop" : 1661876916213,
+        "duration" : 616
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "ef2b0622b02416c3",
+      "name" : "Last screenshot",
+      "source" : "ef2b0622b02416c3.png",
+      "type" : "image/png",
+      "size" : 750526
+    }, {
+      "uid" : "918c0698ba1ffc9a",
+      "name" : "Page source",
+      "source" : "918c0698ba1ffc9a.html",
+      "type" : "text/html",
+      "size" : 1048204
+    }, {
+      "uid" : "baaca1527728d094",
+      "name" : "Browser console logs",
+      "source" : "baaca1527728d094.txt",
+      "type" : "text/plain",
+      "size" : 106
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:cloud.autotests.tests.GeneratedTests]/[method:genTestText()]"
+  }, {
+    "name" : "story",
+    "value" : "Проверка ключевых слов в описании"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EMSLMPO"
+  }, {
+    "name" : "thread",
+    "value" : "1332@DESKTOP-EMSLMPO.Test worker(14)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "cloud.autotests.tests.GeneratedTests"
+  }, {
+    "name" : "testClass",
+    "value" : "cloud.autotests.tests.GeneratedTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "genTestText"
+  }, {
+    "name" : "suite",
+    "value" : "cloud.autotests.tests.GeneratedTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9c7330a2f16ddbcc.json",
+  "parameterValues" : [ ]
+}

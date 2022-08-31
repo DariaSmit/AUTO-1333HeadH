@@ -1,0 +1,235 @@
+{
+  "655eef178ba84c56548ee21a7f48cf88" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f616a30312ab2461",
+      "status" : "failed",
+      "statusDetails" : "\r\nExpecting:\r\n  \"[2022-08-30T13:24:29.741Z] [SEVERE] chrome-extension://invalid/ - Failed to load resource: net::ERR_FAILED\"\r\nnot to contain:\r\n  \"SEVERE\"\r\n",
+      "time" : {
+        "start" : 1661865865826,
+        "stop" : 1661865872646,
+        "duration" : 6820
+      }
+    } ]
+  },
+  "26b7a1877d57e5f9becc9485b2e016f6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1b92c27514e9f154",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661878587058,
+        "stop" : 1661878594331,
+        "duration" : 7273
+      }
+    } ]
+  },
+  "206ac96c0b2c6122ee35c6dad6a3b80f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ea6d4c7db8c7d18b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661878753867,
+        "stop" : 1661878761417,
+        "duration" : 7550
+      }
+    } ]
+  },
+  "9be8058ba17dcc527cda4c347cb3b622" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "27b85a7f3cef87be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661878761489,
+        "stop" : 1661878767624,
+        "duration" : 6135
+      }
+    } ]
+  },
+  "814a35ba407a63fe4bf9a19c52ea546" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fe10b7dc1170b35e",
+      "status" : "failed",
+      "statusDetails" : "Element should have attribute Пожалуйста {By.xpath: //*[@class=\"bloko-form-error bloko-form-error_entering\"]}\r\nElement: '<div class=\"bloko-form-error bloko-form-error_entering\" data-qa=\"field-error-login field-error-login_BAD_LOGIN\">Пожалуйста, укажите email или телефон</div>'\r\nActual value: Пожалуйста=\"null\"\r\nScreenshot: file:/D:/IDEA/AUTO-1333HeadH/build/reports/tests/1661877514447.0.png\r\nPage source: file:/D:/IDEA/AUTO-1333HeadH/build/reports/tests/1661877514447.0.html\r\nTimeout: 4 s.",
+      "time" : {
+        "start" : 1661877504672,
+        "stop" : 1661877516667,
+        "duration" : 11995
+      }
+    } ]
+  },
+  "f7795373ec1df04d0c6ccf422935e8ff" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "41137a1444d466e9",
+      "status" : "broken",
+      "statusDetails" : "unknown error: cannot determine loading status\nfrom disconnected: received Inspector.detached event\n  (Session info: chrome=104.0.5112.102)\nBuild info: version: '4.1.4', revision: '535d840ee2'\nSystem info: host: 'DESKTOP-EMSLMPO', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [ba4d34bc3f168c46d9ef3ce86172b0ba, get {url=https://hh.ru/vacancy/69115572?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=QA%20automation%20engineer}]\nselenide.url: https://hh.ru/vacancy/69115572?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=QA%20automation%20engineer\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\darya\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65445}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65445/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: https://hh.ru\nSession ID: ba4d34bc3f168c46d9ef3ce86172b0ba",
+      "time" : {
+        "start" : 1661877516788,
+        "stop" : 1661877532058,
+        "duration" : 15270
+      }
+    } ]
+  },
+  "89610fb642f8269b83616a96d5441bc7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d912f5b89a914cf4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661878778210,
+        "stop" : 1661878783300,
+        "duration" : 5090
+      }
+    } ]
+  },
+  "b1a821482ca76894affe97c4c8ba203" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "606a9f306cbf7719",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661878767635,
+        "stop" : 1661878772918,
+        "duration" : 5283
+      }
+    } ]
+  },
+  "249fa871f2818cb3a557a6004d72de91" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "47ffa000906b6706",
+      "status" : "failed",
+      "statusDetails" : "\r\nExpecting:\r\n  \"[2022-08-30T16:59:45.703Z] [SEVERE] chrome-extension://invalid/ - Failed to load resource: net::ERR_FAILED\"\r\nnot to contain:\r\n  \"SEVERE\"\r\n",
+      "time" : {
+        "start" : 1661878783303,
+        "stop" : 1661878788884,
+        "duration" : 5581
+      }
+    } ]
+  },
+  "f11824378e2a1bda699fadd37cc31720" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e334c229e23c96fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661878772922,
+        "stop" : 1661878778207,
+        "duration" : 5285
+      }
+    } ]
+  },
+  "f51396bdbaa7521131d98701aad84961" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "964de95f4ce3c009",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661869335698,
+        "stop" : 1661869342560,
+        "duration" : 6862
+      }
+    } ]
+  },
+  "cae7da54394a4d40423781edc75ea67b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "536e744066757",
+      "status" : "failed",
+      "statusDetails" : "Element not found {HH-VacancyResponsePopup-SignupForm}\r\nExpected: text \"Отправить код повторно можно через\"\r\nScreenshot: file:/D:/IDEA/AUTO-1333HeadH/build/reports/tests/1661878113867.0.png\r\nPage source: file:/D:/IDEA/AUTO-1333HeadH/build/reports/tests/1661878113867.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"HH-VacancyResponsePopup-SignupForm\"}",
+      "time" : {
+        "start" : 1661878102004,
+        "stop" : 1661878116147,
+        "duration" : 14143
+      }
+    } ]
+  }
+}

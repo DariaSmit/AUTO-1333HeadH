@@ -1,0 +1,30 @@
+cloud/autotests/config/demowebshop/AppConfig.java
+ cloud.autotests.config.demowebshop.AppConfig
+cloud/autotests/helpers/DriverSettings.java
+ cloud.autotests.helpers.DriverSettings
+cloud/autotests/config/demowebshop/App.java
+ cloud.autotests.config.demowebshop.App
+cloud/autotests/docs/CssXpathExamples.java
+ cloud.autotests.docs.CssXpathExamples
+cloud/autotests/helpers/DriverUtils.java
+ cloud.autotests.helpers.DriverUtils
+cloud/autotests/docs/JUnit5Annotations.java
+ cloud.autotests.docs.JUnit5Annotations
+cloud/autotests/config/ProjectConfig.java
+ cloud.autotests.config.ProjectConfig
+cloud/autotests/config/Project.java
+ cloud.autotests.config.Project
+cloud/autotests/docs/SelenideSnippets.java
+ cloud.autotests.docs.SelenideSnippets
+cloud/autotests/config/CredentialsConfig.java
+ cloud.autotests.config.CredentialsConfig
+cloud/autotests/helpers/AllureRestAssuredFilter.java
+ cloud.autotests.helpers.AllureRestAssuredFilter
+cloud/autotests/tests/GeneratedTests.java
+ cloud.autotests.tests.GeneratedTests
+cloud/autotests/helpers/AllureAttachments.java
+ cloud.autotests.helpers.AllureAttachments
+cloud/autotests/tests/TestBase.java
+ cloud.autotests.tests.TestBase
+cloud/autotests/tests/ButtonTest.java
+ cloud.autotests.tests.ButtonTest

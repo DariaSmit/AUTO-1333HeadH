@@ -1,0 +1,1812 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-EMSLMPO",
+    "children" : [ {
+      "name" : "5796@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "genTestButton()",
+        "uid" : "fbed2153aafacbf8",
+        "parentUid" : "c67ff328e2c75e199b45337ad62d42ab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661869037781,
+          "stop" : 1661869037948,
+          "duration" : 167
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c67ff328e2c75e199b45337ad62d42ab"
+    }, {
+      "name" : "10056@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "genTestButtonTr()",
+        "uid" : "1b92c27514e9f154",
+        "parentUid" : "d060d240895177ce13bcbecdb58888e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661878587058,
+          "stop" : 1661878594331,
+          "duration" : 7273
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d060d240895177ce13bcbecdb58888e3"
+    }, {
+      "name" : "12012@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка консоли на ошибку SERVE",
+        "uid" : "f616a30312ab2461",
+        "parentUid" : "5b8051697bdd1a2d99250ca359ee031a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661865865826,
+          "stop" : 1661865872646,
+          "duration" : 6820
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5b8051697bdd1a2d99250ca359ee031a"
+    }, {
+      "name" : "7000@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "проверка кнопки 'Откликнуться' проверка эмеил AaaYandex.re и ответа системы Пожалуйста",
+        "uid" : "5d577ab399a79394",
+        "parentUid" : "b72402b57d5db4407af0d3c988790351",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661870623235,
+          "stop" : 1661870634714,
+          "duration" : 11479
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "AaaYandex.re", "Пожалуйста" ]
+      }, {
+        "name" : "проверка кнопки 'Откликнуться' проверка эмеил Aaa@Yandex.ru и ответа системы Отправить код повторно можно через",
+        "uid" : "a1b51dc85e4a50b1",
+        "parentUid" : "b72402b57d5db4407af0d3c988790351",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661870634819,
+          "stop" : 1661870644860,
+          "duration" : 10041
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "Aaa@Yandex.ru", "Отправить код повторно можно через" ]
+      } ],
+      "uid" : "b72402b57d5db4407af0d3c988790351"
+    }, {
+      "name" : "14648@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "проверка кнопки 'Откликнуться' проверка эмеил AaaYandex.re, Пожалуйста, укажите email или телефон и ответа системы {1}",
+        "uid" : "4e2c538af62fb32",
+        "parentUid" : "cff2b8940016d532be548c4b5d7b9fdf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661870381832,
+          "stop" : 1661870381931,
+          "duration" : 99
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "проверка кнопки 'Откликнуться' проверка эмеил Aaa@Yandex.ru, Отправить код повторно можно через и ответа системы {1}",
+        "uid" : "8c898b81c502e4f6",
+        "parentUid" : "cff2b8940016d532be548c4b5d7b9fdf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661870382016,
+          "stop" : 1661870382022,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cff2b8940016d532be548c4b5d7b9fdf"
+    }, {
+      "name" : "13916@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка ключевых слов в описании",
+        "uid" : "d5e62e2ce1dcde28",
+        "parentUid" : "da38bbd1c1fd40d206f57132e37d3a56",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661867737841,
+          "stop" : 1661867749836,
+          "duration" : 11995
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "da38bbd1c1fd40d206f57132e37d3a56"
+    }, {
+      "name" : "16072@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "проверка кнопки 'Откликнуться' проверка эмеил AaaYandex.re и ответа системы Пожалуйста",
+        "uid" : "7cdc785afeb81327",
+        "parentUid" : "363638cf717bb678fb8e32db36f83446",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661871197885,
+          "stop" : 1661871205846,
+          "duration" : 7961
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "AaaYandex.re", "Пожалуйста" ]
+      }, {
+        "name" : "проверка кнопки 'Откликнуться' проверка эмеил Aaa@Yandex.ru и ответа системы Отправить код повторно можно через",
+        "uid" : "28441efb02c00c63",
+        "parentUid" : "363638cf717bb678fb8e32db36f83446",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661871206051,
+          "stop" : 1661871211592,
+          "duration" : 5541
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "Aaa@Yandex.ru", "Отправить код повторно можно через" ]
+      } ],
+      "uid" : "363638cf717bb678fb8e32db36f83446"
+    }, {
+      "name" : "11104@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка интерактивности элемента",
+        "uid" : "8b028d485dd50921",
+        "parentUid" : "940ca9d5f6fbd4d61d787edf25ea9967",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661869172386,
+          "stop" : 1661869179818,
+          "duration" : 7432
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "940ca9d5f6fbd4d61d787edf25ea9967"
+    }, {
+      "name" : "9168@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "genTestButton(String, String) проверка эмеил Aaa@Yandex.ru и ответа системы null",
+        "uid" : "41137a1444d466e9",
+        "parentUid" : "88adc9b00dc9c6dd07a8dbc9297783c5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661877516788,
+          "stop" : 1661877532058,
+          "duration" : 15270
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 15,
+        "retriesStatusChange" : true,
+        "parameters" : [ "Aaa@Yandex.ru", "null" ]
+      }, {
+        "name" : "genTestButton(String, String) проверка эмеил AaaYandex.re и ответа системы Пожалуйста",
+        "uid" : "fe10b7dc1170b35e",
+        "parentUid" : "88adc9b00dc9c6dd07a8dbc9297783c5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661877504672,
+          "stop" : 1661877516667,
+          "duration" : 11995
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 15,
+        "retriesStatusChange" : true,
+        "parameters" : [ "AaaYandex.re", "Пожалуйста" ]
+      } ],
+      "uid" : "88adc9b00dc9c6dd07a8dbc9297783c5"
+    }, {
+      "name" : "15896@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "проверка кнопки 'Откликнуться' проверка эмеил AaaYandex.re, Пожалуйста, укажите email или телефон и ответа системы {1}",
+        "uid" : "a3ca02ba6d1c2c0f",
+        "parentUid" : "0a54008a2f9d29d016b0413653e94c58",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661870319215,
+          "stop" : 1661870319306,
+          "duration" : 91
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "проверка кнопки 'Откликнуться' проверка эмеил Aaa@Yandex.ru, Отправить код повторно можно через и ответа системы {1}",
+        "uid" : "aa8af43d71f13a28",
+        "parentUid" : "0a54008a2f9d29d016b0413653e94c58",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661870319397,
+          "stop" : 1661870319404,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0a54008a2f9d29d016b0413653e94c58"
+    }, {
+      "name" : "2112@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "rdfg",
+        "uid" : "e54e279e6a29cc79",
+        "parentUid" : "e28e3787f59467891f4b9ec94bb0f396",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661864452510,
+          "stop" : 1661864460038,
+          "duration" : 7528
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e28e3787f59467891f4b9ec94bb0f396"
+    }, {
+      "name" : "21264@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "genTestButton(String, String) проверка эмеил AaaYandex.re и ответа системы Пожалуйста",
+        "uid" : "c7a671a986b0f156",
+        "parentUid" : "da439271a853c43f7fecaf93aa2d7bfb",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661877402293,
+          "stop" : 1661877414621,
+          "duration" : 12328
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "AaaYandex.re", "Пожалуйста" ]
+      }, {
+        "name" : "genTestButton(String, String) проверка эмеил Aaa@Yandex.ru и ответа системы null",
+        "uid" : "2bcac336d26657dc",
+        "parentUid" : "da439271a853c43f7fecaf93aa2d7bfb",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661877414703,
+          "stop" : 1661877426563,
+          "duration" : 11860
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "Aaa@Yandex.ru", "null" ]
+      } ],
+      "uid" : "da439271a853c43f7fecaf93aa2d7bfb"
+    }, {
+      "name" : "6168@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка ключевых слов в описании",
+        "uid" : "1242ea4f7e9e4f5c",
+        "parentUid" : "fd709f9c393be065958a745f9b76bcee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661869144163,
+          "stop" : 1661869151292,
+          "duration" : 7129
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fd709f9c393be065958a745f9b76bcee"
+    }, {
+      "name" : "9016@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "проверка кнопки 'Откликнуться' и проверка появления ошибки на некорректный адрес проверка эмеил AaaYandex.re и ответа системы Пожалуйста",
+        "uid" : "c8c5759e51e005c2",
+        "parentUid" : "63396c822d539529452a1fa6c24b682c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661874210780,
+          "stop" : 1661874222622,
+          "duration" : 11842
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "AaaYandex.re", "Пожалуйста" ]
+      }, {
+        "name" : "проверка кнопки 'Откликнуться' и проверка появления ошибки на некорректный адрес проверка эмеил Aaa@Yandex.ru и ответа системы null",
+        "uid" : "81284a7bf01cc067",
+        "parentUid" : "63396c822d539529452a1fa6c24b682c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661874222704,
+          "stop" : 1661874227773,
+          "duration" : 5069
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "Aaa@Yandex.ru", "null" ]
+      } ],
+      "uid" : "63396c822d539529452a1fa6c24b682c"
+    }, {
+      "name" : "9236@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка ключевых слов в описании",
+        "uid" : "8a4b3a936eb0c64f",
+        "parentUid" : "4dd40d319fdd2220358a0a23a8e8f008",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661867287178,
+          "stop" : 1661867340729,
+          "duration" : 53551
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4dd40d319fdd2220358a0a23a8e8f008"
+    }, {
+      "name" : "1304@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "genTestButtonTr()",
+        "uid" : "ea6d4c7db8c7d18b",
+        "parentUid" : "5ec40a66825abe7cbcb11c90033c3278",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661878753867,
+          "stop" : 1661878761417,
+          "duration" : 7550
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Проверка ключевых слов в описании",
+        "uid" : "606a9f306cbf7719",
+        "parentUid" : "5ec40a66825abe7cbcb11c90033c3278",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661878767635,
+          "stop" : 1661878772918,
+          "duration" : 5283
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 15,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "genTestButton()",
+        "uid" : "27b85a7f3cef87be",
+        "parentUid" : "5ec40a66825abe7cbcb11c90033c3278",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661878761489,
+          "stop" : 1661878767624,
+          "duration" : 6135
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Проверка заголовков",
+        "uid" : "d912f5b89a914cf4",
+        "parentUid" : "5ec40a66825abe7cbcb11c90033c3278",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661878778210,
+          "stop" : 1661878783300,
+          "duration" : 5090
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 13,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Проверка консоли на ошибку SERVE",
+        "uid" : "47ffa000906b6706",
+        "parentUid" : "5ec40a66825abe7cbcb11c90033c3278",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661878783303,
+          "stop" : 1661878788884,
+          "duration" : 5581
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Проверка интерактивности элемента",
+        "uid" : "e334c229e23c96fb",
+        "parentUid" : "5ec40a66825abe7cbcb11c90033c3278",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661878772922,
+          "stop" : 1661878778207,
+          "duration" : 5285
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5ec40a66825abe7cbcb11c90033c3278"
+    }, {
+      "name" : "2092@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка заголовков",
+        "uid" : "939bdea7a2f65cc7",
+        "parentUid" : "f965bb829a67fbdeb5baea74fb731e9c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661865449385,
+          "stop" : 1661865456488,
+          "duration" : 7103
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f965bb829a67fbdeb5baea74fb731e9c"
+    }, {
+      "name" : "16068@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка ключевых слов в описании",
+        "uid" : "b3f00fe0e5a9ec92",
+        "parentUid" : "97eeacd3826029aad8f4d065cc1d98ad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661868190851,
+          "stop" : 1661868197222,
+          "duration" : 6371
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "97eeacd3826029aad8f4d065cc1d98ad"
+    }, {
+      "name" : "7216@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка ключевых слов в описании",
+        "uid" : "8bb6d70144f0b78",
+        "parentUid" : "35e1c3edaffe1aaa0c88320dc8ff85fd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661868594100,
+          "stop" : 1661868602236,
+          "duration" : 8136
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "35e1c3edaffe1aaa0c88320dc8ff85fd"
+    }, {
+      "name" : "20904@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "genTestButtonTr()",
+        "uid" : "9b4667b9564f848b",
+        "parentUid" : "5c1a60a22b7ba5a3ac8f6ffbaae11c23",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661878396214,
+          "stop" : 1661878408595,
+          "duration" : 12381
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5c1a60a22b7ba5a3ac8f6ffbaae11c23"
+    }, {
+      "name" : "18080@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "проверка кнопки 'Откликнуться'",
+        "uid" : "ea557ac203debae8",
+        "parentUid" : "868965306d56d870b7ed30ca9a4fd93e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661869291615,
+          "stop" : 1661869299265,
+          "duration" : 7650
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "868965306d56d870b7ed30ca9a4fd93e"
+    }, {
+      "name" : "1332@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Dariasmit",
+        "uid" : "9c7330a2f16ddbcc",
+        "parentUid" : "952079fc39e4c16cb4e6dce575de25ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661876909323,
+          "stop" : 1661876916220,
+          "duration" : 6897
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "DariaSmit",
+        "uid" : "4c9ca92cda8e7565",
+        "parentUid" : "952079fc39e4c16cb4e6dce575de25ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661876916305,
+          "stop" : 1661876921139,
+          "duration" : 4834
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "DariaSmit",
+        "uid" : "ef6a23672926648c",
+        "parentUid" : "952079fc39e4c16cb4e6dce575de25ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661876921146,
+          "stop" : 1661876926061,
+          "duration" : 4915
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "DariaSmit",
+        "uid" : "95dc4f30bdfbb321",
+        "parentUid" : "952079fc39e4c16cb4e6dce575de25ff",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661876926067,
+          "stop" : 1661876932642,
+          "duration" : 6575
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "952079fc39e4c16cb4e6dce575de25ff"
+    }, {
+      "name" : "11796@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка ключевых слов в описании",
+        "uid" : "1840d3f6c0929f9b",
+        "parentUid" : "11c28b01adf5f1eb05745f3e0541be91",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661867601545,
+          "stop" : 1661867626568,
+          "duration" : 25023
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "11c28b01adf5f1eb05745f3e0541be91"
+    }, {
+      "name" : "21040@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка интерактивности элемента",
+        "uid" : "53bccb92654d20eb",
+        "parentUid" : "b41491d6d889a91a417d5906359ea9d7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661877032184,
+          "stop" : 1661877036770,
+          "duration" : 4586
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Проверка ключевых слов в описании",
+        "uid" : "b5cbd8fad3b75e10",
+        "parentUid" : "b41491d6d889a91a417d5906359ea9d7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661877025897,
+          "stop" : 1661877032079,
+          "duration" : 6182
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Проверка заголовков",
+        "uid" : "3327e1d46bc8fc50",
+        "parentUid" : "b41491d6d889a91a417d5906359ea9d7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661877036776,
+          "stop" : 1661877041160,
+          "duration" : 4384
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Проверка консоли на ошибку SERVE",
+        "uid" : "d3e04977cdf2265",
+        "parentUid" : "b41491d6d889a91a417d5906359ea9d7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661877041165,
+          "stop" : 1661877045931,
+          "duration" : 4766
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b41491d6d889a91a417d5906359ea9d7"
+    }, {
+      "name" : "1016@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка ключевых слов в описании",
+        "uid" : "9c275e2a2ca1a2b0",
+        "parentUid" : "ea79186ec3711e2543a23d1fd5c3b7d5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661867997669,
+          "stop" : 1661868020827,
+          "duration" : 23158
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ea79186ec3711e2543a23d1fd5c3b7d5"
+    }, {
+      "name" : "16864@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "rdfg",
+        "uid" : "d5b2cc7e7ec06b93",
+        "parentUid" : "cc85e2b7ad48d3ac4dfd2ebc872031ac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661864549191,
+          "stop" : 1661864555671,
+          "duration" : 6480
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cc85e2b7ad48d3ac4dfd2ebc872031ac"
+    }, {
+      "name" : "5700@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "genTestButton()",
+        "uid" : "f2d22e2ee84a8a3d",
+        "parentUid" : "6cc6466dbccbb88ac33a3cee7753c6fc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661869077302,
+          "stop" : 1661869084226,
+          "duration" : 6924
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6cc6466dbccbb88ac33a3cee7753c6fc"
+    }, {
+      "name" : "18092@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка консоли на ошибку SERVE",
+        "uid" : "7648cdeb66ef768f",
+        "parentUid" : "c60e3fa01a8bce0e79f29ee6b584d295",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661865832458,
+          "stop" : 1661865839618,
+          "duration" : 7160
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c60e3fa01a8bce0e79f29ee6b584d295"
+    }, {
+      "name" : "16452@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка ключевых слов в описании",
+        "uid" : "ed43107e9a51b587",
+        "parentUid" : "556f7fce2196a2bbb8249e599ea5a366",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661867369155,
+          "stop" : 1661867377275,
+          "duration" : 8120
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "556f7fce2196a2bbb8249e599ea5a366"
+    }, {
+      "name" : "5056@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "rdfg",
+        "uid" : "866c71afd4aee2ab",
+        "parentUid" : "b2c30a2ad37711489ddcd921aa5ff884",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661864852508,
+          "stop" : 1661864852673,
+          "duration" : 165
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b2c30a2ad37711489ddcd921aa5ff884"
+    }, {
+      "name" : "14408@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка ключевых слов в описании",
+        "uid" : "58025c6c73a67ade",
+        "parentUid" : "eb2f7a3b625e6e73c6cd978181669b42",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661867234265,
+          "stop" : 1661867246838,
+          "duration" : 12573
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "eb2f7a3b625e6e73c6cd978181669b42"
+    }, {
+      "name" : "13156@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка ключевых слов в описании",
+        "uid" : "55b734d46cc59100",
+        "parentUid" : "0ef0e110b26feb1ae393326cacc303db",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661867170224,
+          "stop" : 1661867183583,
+          "duration" : 13359
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0ef0e110b26feb1ae393326cacc303db"
+    }, {
+      "name" : "20132@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "genTestButtonTr()",
+        "uid" : "2bc45909a4dea078",
+        "parentUid" : "29feeca85328cb7d4404a66b8e4a3fab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661878506152,
+          "stop" : 1661878514118,
+          "duration" : 7966
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "29feeca85328cb7d4404a66b8e4a3fab"
+    }, {
+      "name" : "1608@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "genTestButtonTr()",
+        "uid" : "599eefab44e2204d",
+        "parentUid" : "8a72c5913077afc17ac8c6a5fcd47d0f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661878277570,
+          "stop" : 1661878287750,
+          "duration" : 10180
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8a72c5913077afc17ac8c6a5fcd47d0f"
+    }, {
+      "name" : "5216@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка ключевых слов в описании",
+        "uid" : "a280a20bb272e89d",
+        "parentUid" : "e782deacf690a8ab5c3c83e05ad3fa3b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661867768148,
+          "stop" : 1661867774707,
+          "duration" : 6559
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e782deacf690a8ab5c3c83e05ad3fa3b"
+    }, {
+      "name" : "16404@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "проверка кнопки 'Откликнуться' проверка эмеил AaaYandex.re и ответа системы Пожалуйста",
+        "uid" : "78d51dca6777642a",
+        "parentUid" : "903ebd7fae42d1df659621399a85fc47",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661871312922,
+          "stop" : 1661871325454,
+          "duration" : 12532
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "AaaYandex.re", "Пожалуйста" ]
+      }, {
+        "name" : "проверка кнопки 'Откликнуться' проверка эмеил Aaa@Yandex.ru и ответа системы Отправить код повторно можно через",
+        "uid" : "e841be9150159919",
+        "parentUid" : "903ebd7fae42d1df659621399a85fc47",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661871325713,
+          "stop" : 1661871336289,
+          "duration" : 10576
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "Aaa@Yandex.ru", "Отправить код повторно можно через" ]
+      } ],
+      "uid" : "903ebd7fae42d1df659621399a85fc47"
+    }, {
+      "name" : "12204@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "проверка кнопки 'Откликнуться' проверка эмеил Aaa@Yandex.ru, Отправить код повторно можно через и ответа системы {1}",
+        "uid" : "39404a0d1d52d474",
+        "parentUid" : "c2ca6e7a7e3048ec6195e332ebfdb1eb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661870348265,
+          "stop" : 1661870348272,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "проверка кнопки 'Откликнуться' проверка эмеил AaaYandex.re, Пожалуйста, укажите email или телефон и ответа системы {1}",
+        "uid" : "6e40338e2d9caa19",
+        "parentUid" : "c2ca6e7a7e3048ec6195e332ebfdb1eb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661870348088,
+          "stop" : 1661870348178,
+          "duration" : 90
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c2ca6e7a7e3048ec6195e332ebfdb1eb"
+    }, {
+      "name" : "14084@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "проверка кнопки 'Откликнуться'",
+        "uid" : "964de95f4ce3c009",
+        "parentUid" : "0b3a9a9075e91ad4bd796c711d9d614e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661869335698,
+          "stop" : 1661869342560,
+          "duration" : 6862
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0b3a9a9075e91ad4bd796c711d9d614e"
+    }, {
+      "name" : "6104@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "genTestButton()",
+        "uid" : "80c5061a9efd2e",
+        "parentUid" : "3067cb2b7e46961a317a6234869a79a2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661877986609,
+          "stop" : 1661877998491,
+          "duration" : 11882
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3067cb2b7e46961a317a6234869a79a2"
+    }, {
+      "name" : "5864@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "проверка кнопки 'Откликнуться' проверка эмеил Aaa@Yandex.ru, Отправить код повторно можно через и ответа системы {1}",
+        "uid" : "8990642dbd9aa8c",
+        "parentUid" : "ad49beeef38f67447df147cdd0a47f13",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661870575146,
+          "stop" : 1661870575150,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "проверка кнопки 'Откликнуться' проверка эмеил AaaYandex.re, Пожалуйста, укажите email или телефон и ответа системы {1}",
+        "uid" : "9b2f37c03c1cfd37",
+        "parentUid" : "ad49beeef38f67447df147cdd0a47f13",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661870574975,
+          "stop" : 1661870575059,
+          "duration" : 84
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ad49beeef38f67447df147cdd0a47f13"
+    }, {
+      "name" : "17708@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "проверка кнопки 'Откликнуться' проверка эмеил AaaYandex.re, Пожалуйста, укажите email или телефон и ответа системы {1}",
+        "uid" : "d377f84796e8df0a",
+        "parentUid" : "5e2aa0594aaf57a4640a6611fcd8d60b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661870428782,
+          "stop" : 1661870428885,
+          "duration" : 103
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "проверка кнопки 'Откликнуться' проверка эмеил Aaa@Yandex.ru, Отправить код повторно можно через и ответа системы {1}",
+        "uid" : "eb74c78a731f3249",
+        "parentUid" : "5e2aa0594aaf57a4640a6611fcd8d60b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661870428982,
+          "stop" : 1661870428989,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5e2aa0594aaf57a4640a6611fcd8d60b"
+    }, {
+      "name" : "16084@DESKTOP-EMSLMPO.Test worker(17)",
+      "children" : [ {
+        "name" : "проверка кнопки 'Откликнуться' проверка эмеил Aaa@Yandex.ru и ответа системы Отправить код повторно можно через",
+        "uid" : "366a8ce30b7adbf2",
+        "parentUid" : "d12d96d842849ff4741694d529dac52c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661871672546,
+          "stop" : 1661871682883,
+          "duration" : 10337
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "Aaa@Yandex.ru", "Отправить код повторно можно через" ]
+      }, {
+        "name" : "проверка кнопки 'Откликнуться' проверка эмеил AaaYandex.re и ответа системы Пожалуйста",
+        "uid" : "25edbf794abeaea8",
+        "parentUid" : "d12d96d842849ff4741694d529dac52c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661871662925,
+          "stop" : 1661871672424,
+          "duration" : 9499
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "AaaYandex.re", "Пожалуйста" ]
+      } ],
+      "uid" : "d12d96d842849ff4741694d529dac52c"
+    }, {
+      "name" : "5804@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "genTestButtonTr()",
+        "uid" : "5f69165e9e365bf0",
+        "parentUid" : "f39f417b1bfd82e8c3ef3d44115f036d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661878152571,
+          "stop" : 1661878152761,
+          "duration" : 190
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f39f417b1bfd82e8c3ef3d44115f036d"
+    }, {
+      "name" : "1896@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "проверка кнопки 'Откликнуться' проверка эмеил Aaa@Yandex.ru и ответа системы {1}",
+        "uid" : "f979a92bef6a6f08",
+        "parentUid" : "c245754ea6bacc3de7e7722559f60eaa",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661871807891,
+          "stop" : 1661871807898,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "проверка кнопки 'Откликнуться' проверка эмеил AaaYandex.re и ответа системы Пожалуйста",
+        "uid" : "d3b371178e734224",
+        "parentUid" : "c245754ea6bacc3de7e7722559f60eaa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661871800118,
+          "stop" : 1661871807821,
+          "duration" : 7703
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "AaaYandex.re", "Пожалуйста" ]
+      } ],
+      "uid" : "c245754ea6bacc3de7e7722559f60eaa"
+    }, {
+      "name" : "16724@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "DariaSmit",
+        "uid" : "d85c5c9ce64f87db",
+        "parentUid" : "df41f79c9a6741b2868919f900731c05",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661876825137,
+          "stop" : 1661876832648,
+          "duration" : 7511
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "df41f79c9a6741b2868919f900731c05"
+    }, {
+      "name" : "20168@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "genTestButton()",
+        "uid" : "536e744066757",
+        "parentUid" : "146249e7ddbbe743097de10c89d7895b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661878102004,
+          "stop" : 1661878116147,
+          "duration" : 14143
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "146249e7ddbbe743097de10c89d7895b"
+    }, {
+      "name" : "820@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "genTestButtonTr()",
+        "uid" : "3e9039426d362f52",
+        "parentUid" : "d69b55b3d389ddfe09b0a99a58687851",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661878352389,
+          "stop" : 1661878361816,
+          "duration" : 9427
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d69b55b3d389ddfe09b0a99a58687851"
+    }, {
+      "name" : "4332@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "genTestButton()",
+        "uid" : "a552506368b58cc1",
+        "parentUid" : "803b4272dd27a8e1cb62407dd7a4147f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661869191089,
+          "stop" : 1661869198113,
+          "duration" : 7024
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "803b4272dd27a8e1cb62407dd7a4147f"
+    }, {
+      "name" : "18828@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "проверка кнопки 'Откликнуться' проверка эмеил AaaYandex.re и ответа системы Пожалуйста",
+        "uid" : "2290e8f82d0f980c",
+        "parentUid" : "f2dd49e1476a4214d20e47c45c2bd3a0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661871582004,
+          "stop" : 1661871594134,
+          "duration" : 12130
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "AaaYandex.re", "Пожалуйста" ]
+      }, {
+        "name" : "проверка кнопки 'Откликнуться' проверка эмеил Aaa@Yandex.ru и ответа системы Отправить код повторно можно через",
+        "uid" : "f03da39b488bec2d",
+        "parentUid" : "f2dd49e1476a4214d20e47c45c2bd3a0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661871594286,
+          "stop" : 1661871604357,
+          "duration" : 10071
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "Aaa@Yandex.ru", "Отправить код повторно можно через" ]
+      } ],
+      "uid" : "f2dd49e1476a4214d20e47c45c2bd3a0"
+    }, {
+      "name" : "15688@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "rdfg",
+        "uid" : "364a498cc49e4069",
+        "parentUid" : "8e58961338606222fc28b474b6e08aa2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661864895112,
+          "stop" : 1661864903876,
+          "duration" : 8764
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8e58961338606222fc28b474b6e08aa2"
+    }, {
+      "name" : "16612@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка ключевых слов в описании",
+        "uid" : "18d5757be732c23c",
+        "parentUid" : "2256502ba5b24416e9eac5eeaf5a20cf",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661867138843,
+          "stop" : 1661867150828,
+          "duration" : 11985
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2256502ba5b24416e9eac5eeaf5a20cf"
+    }, {
+      "name" : "12736@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "genTestButton()",
+        "uid" : "e52693febe941cd0",
+        "parentUid" : "da67262cf6370c355c3e091aea7f512e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661877951584,
+          "stop" : 1661877965198,
+          "duration" : 13614
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "da67262cf6370c355c3e091aea7f512e"
+    }, {
+      "name" : "18832@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "проверка кнопки 'Откликнуться' проверка эмеил AaaYandex.re и ответа системы Пожалуйста",
+        "uid" : "7063390804fb40e3",
+        "parentUid" : "76906fde07c89a128b6ecc32718cc1ae",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661871432066,
+          "stop" : 1661871444592,
+          "duration" : 12526
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "AaaYandex.re", "Пожалуйста" ]
+      }, {
+        "name" : "проверка кнопки 'Откликнуться' проверка эмеил Aaa@Yandex.ru и ответа системы Отправить код повторно можно через",
+        "uid" : "666c0ddcf1832343",
+        "parentUid" : "76906fde07c89a128b6ecc32718cc1ae",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661871444678,
+          "stop" : 1661871455149,
+          "duration" : 10471
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "Aaa@Yandex.ru", "Отправить код повторно можно через" ]
+      } ],
+      "uid" : "76906fde07c89a128b6ecc32718cc1ae"
+    }, {
+      "name" : "5076@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "genTestButton()",
+        "uid" : "17652c3eafdc865d",
+        "parentUid" : "3335a4955d4ef5449e87e3a24847cfd8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661877746557,
+          "stop" : 1661877753078,
+          "duration" : 6521
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3335a4955d4ef5449e87e3a24847cfd8"
+    }, {
+      "name" : "21356@DESKTOP-EMSLMPO.Test worker(17)",
+      "children" : [ {
+        "name" : "DariaSmit",
+        "uid" : "60b2045d2836429c",
+        "parentUid" : "06369da35307066d09f916e3fec3f88b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661876856527,
+          "stop" : 1661876863439,
+          "duration" : 6912
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "06369da35307066d09f916e3fec3f88b"
+    }, {
+      "name" : "11704@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "проверка кнопки 'Откликнуться' проверка эмеил Aaa@Yandex.ru и ответа системы Мы отправили письмо с кодом на почту",
+        "uid" : "f43b5b1b7696233e",
+        "parentUid" : "381a8635fe4dbc748b465936baf01701",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661871746263,
+          "stop" : 1661871756947,
+          "duration" : 10684
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "Aaa@Yandex.ru", "Мы отправили письмо с кодом на почту" ]
+      }, {
+        "name" : "проверка кнопки 'Откликнуться' проверка эмеил AaaYandex.re и ответа системы Пожалуйста",
+        "uid" : "c370230398720dd9",
+        "parentUid" : "381a8635fe4dbc748b465936baf01701",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661871737968,
+          "stop" : 1661871746148,
+          "duration" : 8180
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "AaaYandex.re", "Пожалуйста" ]
+      } ],
+      "uid" : "381a8635fe4dbc748b465936baf01701"
+    }, {
+      "name" : "15756@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "rdfg",
+        "uid" : "9908750ab03a3e01",
+        "parentUid" : "1e51ad771fc8e4ce4500046fe439376b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661864383922,
+          "stop" : 1661864384025,
+          "duration" : 103
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1e51ad771fc8e4ce4500046fe439376b"
+    }, {
+      "name" : "11728@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "rdfg",
+        "uid" : "5d10f732c8403ac1",
+        "parentUid" : "01a8530b4fcf3b58ce63f633edea6a91",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661864600814,
+          "stop" : 1661864608462,
+          "duration" : 7648
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "01a8530b4fcf3b58ce63f633edea6a91"
+    }, {
+      "name" : "13276@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "genTestButton()",
+        "uid" : "f4770c11021e0435",
+        "parentUid" : "82e9ae47db050cb806ca39853c5ebb48",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661869110361,
+          "stop" : 1661869118208,
+          "duration" : 7847
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "82e9ae47db050cb806ca39853c5ebb48"
+    }, {
+      "name" : "15988@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка консоли на ошибку SERVE",
+        "uid" : "597e8dcfbad680dc",
+        "parentUid" : "83c231611413abf45d6fc5ceeee79093",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661877065059,
+          "stop" : 1661877072824,
+          "duration" : 7765
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "83c231611413abf45d6fc5ceeee79093"
+    }, {
+      "name" : "16788@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка заголовков",
+        "uid" : "49796b837dda28b3",
+        "parentUid" : "8d00284d42b5f80a41b50d7654d09ee9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1661865100513,
+          "stop" : 1661865107978,
+          "duration" : 7465
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8d00284d42b5f80a41b50d7654d09ee9"
+    }, {
+      "name" : "9272@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "Проверка ключевых слов в описании",
+        "uid" : "511f595f590f379b",
+        "parentUid" : "90e7e7b733d73b8074b16d34bd68f4a1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661866861971,
+          "stop" : 1661866874464,
+          "duration" : 12493
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "90e7e7b733d73b8074b16d34bd68f4a1"
+    }, {
+      "name" : "6764@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "genTestButtonTr()",
+        "uid" : "bd445fc034dfc564",
+        "parentUid" : "d5f5c8e0b8f3b300b3367da76bc30e30",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661878183861,
+          "stop" : 1661878196756,
+          "duration" : 12895
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d5f5c8e0b8f3b300b3367da76bc30e30"
+    }, {
+      "name" : "14324@DESKTOP-EMSLMPO.Test worker(14)",
+      "children" : [ {
+        "name" : "DariaSmit",
+        "uid" : "feb8d37f888bd8a5",
+        "parentUid" : "93fa45d6ca7f4fad7a5419f5d13d1565",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661876870377,
+          "stop" : 1661876886507,
+          "duration" : 16130
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "93fa45d6ca7f4fad7a5419f5d13d1565"
+    } ],
+    "uid" : "5386f6b11084c0612c9219419a75dd41"
+  } ]
+}

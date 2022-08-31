@@ -1,0 +1,5 @@
+[2022-08-30T13:03:24.980Z] [SEVERE] chrome-extension://invalid/ - Failed to load resource: net::ERR_FAILED
+[2022-08-30T13:03:27.504Z] [WARNING] https://cstatic.weborama.fr/js/topics/topics.js 10 Unrecognized feature: 'browsing-topics'.
+[2022-08-30T13:03:27.513Z] [WARNING] https://cstatic.weborama.fr/js/advertiserv2/adperf_core_1.0.0_scrambled.js 8 Unrecognized feature: 'vr'.
+[2022-08-30T13:03:27.513Z] [WARNING] https://cstatic.weborama.fr/js/advertiserv2/adperf_core_1.0.0_scrambled.js 8 Unrecognized feature: 'speaker'.
+[2022-08-30T13:03:27.513Z] [WARNING] https://cstatic.weborama.fr/js/advertiserv2/adperf_core_1.0.0_scrambled.js 8 Unrecognized feature: 'ambient-light-sensor'.

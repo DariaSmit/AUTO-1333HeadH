@@ -1,0 +1,81 @@
+[ {
+  "uid" : "a79d9eee91dfdc5d",
+  "name" : "Проверка консоли на ошибку SERVE",
+  "time" : {
+    "start" : 1661865865826,
+    "stop" : 1661865872646,
+    "duration" : 6820
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "990ac00a93afb6dc",
+  "name" : "проверка кнопки 'Откликнуться'",
+  "time" : {
+    "start" : 1661869335698,
+    "stop" : 1661869342560,
+    "duration" : 6862
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "636bcab79a1909b",
+  "name" : "проверка кнопки 'Откликнуться' и проверка появления ошибки на некорректный адрес проверка эмеил AaaYandex.re и ответа системы Пожалуйста",
+  "time" : {
+    "start" : 1661874210780,
+    "stop" : 1661874222622,
+    "duration" : 11842
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a88e8b934a433cb1",
+  "name" : "проверка кнопки 'Откликнуться' и проверка появления ошибки на некорректный адрес проверка эмеил Aaa@Yandex.ru и ответа системы null",
+  "time" : {
+    "start" : 1661874222704,
+    "stop" : 1661874227773,
+    "duration" : 5069
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5bf28fedc04374ac",
+  "name" : "Проверка интерактивности элемента",
+  "time" : {
+    "start" : 1661877032184,
+    "stop" : 1661877036770,
+    "duration" : 4586
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "20edb90c38333e8b",
+  "name" : "Проверка ключевых слов в описании",
+  "time" : {
+    "start" : 1661877025897,
+    "stop" : 1661877032079,
+    "duration" : 6182
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "94a6fd477729fe2e",
+  "name" : "Проверка заголовков",
+  "time" : {
+    "start" : 1661877036776,
+    "stop" : 1661877041160,
+    "duration" : 4384
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cebdaeb55d1b23cc",
+  "name" : "Проверка консоли на ошибку SERVE",
+  "time" : {
+    "start" : 1661877065059,
+    "stop" : 1661877072824,
+    "duration" : 7765
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

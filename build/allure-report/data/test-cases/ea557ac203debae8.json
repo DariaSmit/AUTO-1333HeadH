@@ -1,0 +1,212 @@
+{
+  "uid" : "ea557ac203debae8",
+  "name" : "проверка кнопки 'Откликнуться'",
+  "fullName" : "cloud.autotests.tests.GeneratedTests.genTestButton",
+  "historyId" : "f51396bdbaa7521131d98701aad84961",
+  "time" : {
+    "start" : 1661869291615,
+    "stop" : 1661869299265,
+    "duration" : 7650
+  },
+  "description" : "Проверка страницы вакансии на HH.ru",
+  "descriptionHtml" : "<p>Проверка страницы вакансии на HH.ru</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "beforeAll",
+    "time" : {
+      "start" : 1661869291492,
+      "stop" : 1661869291576,
+      "duration" : 84
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeEach",
+    "time" : {
+      "start" : 1661869291619,
+      "stop" : 1661869291622,
+      "duration" : 3
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Проверка страницы вакансии на HH.ru",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "открыть страницу вакансии",
+      "time" : {
+        "start" : 1661869291628,
+        "stop" : 1661869296999,
+        "duration" : 5371
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"open\") https://hh.ru/vacancy/69115572?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=QA%20automation%20engineer",
+        "time" : {
+          "start" : 1661869291692,
+          "stop" : 1661869296999,
+          "duration" : 5307
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"webdriver\") create()",
+          "time" : {
+            "start" : 1661869291697,
+            "stop" : 1661869294309,
+            "duration" : 2612
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "$(\".bloko-button_kind-success\") click()",
+      "time" : {
+        "start" : 1661869297035,
+        "stop" : 1661869297251,
+        "duration" : 216
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterEach",
+    "time" : {
+      "start" : 1661869297255,
+      "stop" : 1661869299234,
+      "duration" : 1979
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"webdriver\") close()",
+      "time" : {
+        "start" : 1661869298121,
+        "stop" : 1661869299232,
+        "duration" : 1111
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "da9f6bdff06b183",
+      "name" : "Last screenshot",
+      "source" : "da9f6bdff06b183.png",
+      "type" : "image/png",
+      "size" : 749041
+    }, {
+      "uid" : "f7a33f317d05e79",
+      "name" : "Page source",
+      "source" : "f7a33f317d05e79.html",
+      "type" : "text/html",
+      "size" : 1049670
+    }, {
+      "uid" : "35e05afb2aa2f790",
+      "name" : "Browser console logs",
+      "source" : "35e05afb2aa2f790.txt",
+      "type" : "text/plain",
+      "size" : 106
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:cloud.autotests.tests.GeneratedTests]/[method:genTestButton()]"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EMSLMPO"
+  }, {
+    "name" : "thread",
+    "value" : "18080@DESKTOP-EMSLMPO.Test worker(14)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "cloud.autotests.tests.GeneratedTests"
+  }, {
+    "name" : "testClass",
+    "value" : "cloud.autotests.tests.GeneratedTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "genTestButton"
+  }, {
+    "name" : "suite",
+    "value" : "cloud.autotests.tests.GeneratedTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ea557ac203debae8.json",
+  "parameterValues" : [ ]
+}

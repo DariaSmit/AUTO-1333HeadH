@@ -1,0 +1,1 @@
+[2022-08-30T14:09:58.591Z] [SEVERE] chrome-extension://invalid/ - Failed to load resource: net::ERR_FAILED

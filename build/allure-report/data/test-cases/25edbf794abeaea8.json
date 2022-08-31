@@ -1,0 +1,308 @@
+{
+  "uid" : "25edbf794abeaea8",
+  "name" : "проверка кнопки 'Откликнуться' проверка эмеил AaaYandex.re и ответа системы Пожалуйста",
+  "fullName" : "cloud.autotests.tests.ParamTest.genTestButton",
+  "historyId" : "814a35ba407a63fe4bf9a19c52ea546",
+  "time" : {
+    "start" : 1661871662925,
+    "stop" : 1661871672424,
+    "duration" : 9499
+  },
+  "description" : "Проверка страницы вакансии на HH.ru",
+  "descriptionHtml" : "<p>Проверка страницы вакансии на HH.ru</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "beforeAll",
+    "time" : {
+      "start" : 1661871662721,
+      "stop" : 1661871662815,
+      "duration" : 94
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "beforeEach",
+    "time" : {
+      "start" : 1661871662929,
+      "stop" : 1661871662934,
+      "duration" : 5
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Проверка страницы вакансии на HH.ru",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "открыть страницу вакансии",
+      "time" : {
+        "start" : 1661871662960,
+        "stop" : 1661871669118,
+        "duration" : 6158
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"open\") https://hh.ru/vacancy/69115572?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=QA%20automation%20engineer",
+        "time" : {
+          "start" : 1661871663024,
+          "stop" : 1661871669117,
+          "duration" : 6093
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"webdriver\") create()",
+          "time" : {
+            "start" : 1661871663030,
+            "stop" : 1661871665794,
+            "duration" : 2764
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Нажать на кнопку 'Откликнуться'",
+      "time" : {
+        "start" : 1661871669118,
+        "stop" : 1661871669361,
+        "duration" : 243
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".bloko-button_kind-success\") click()",
+        "time" : {
+          "start" : 1661871669155,
+          "stop" : 1661871669361,
+          "duration" : 206
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "ввести эмеил ",
+      "time" : {
+        "start" : 1661871669361,
+        "stop" : 1661871669854,
+        "duration" : 493
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"By.name: login\") click()",
+        "time" : {
+          "start" : 1661871669364,
+          "stop" : 1661871669432,
+          "duration" : 68
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "$(\"By.name: login\") set value(AaaYandex.re)",
+        "time" : {
+          "start" : 1661871669433,
+          "stop" : 1661871669532,
+          "duration" : 99
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "$(\".signup-submit span\") click()",
+        "time" : {
+          "start" : 1661871669532,
+          "stop" : 1661871669608,
+          "duration" : 76
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "$(\"By.xpath: //*[@class=\"bloko-form-error bloko-form-error_entering\"]\") should have(text \"Пожалуйста\")",
+        "time" : {
+          "start" : 1661871669609,
+          "stop" : 1661871669854,
+          "duration" : 245
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 10,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterEach",
+    "time" : {
+      "start" : 1661871669857,
+      "stop" : 1661871672417,
+      "duration" : 2560
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"webdriver\") close()",
+      "time" : {
+        "start" : 1661871671701,
+        "stop" : 1661871672416,
+        "duration" : 715
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "d25427c2f5102c1e",
+      "name" : "Last screenshot",
+      "source" : "d25427c2f5102c1e.png",
+      "type" : "image/png",
+      "size" : 226545
+    }, {
+      "uid" : "ddcad6547113607f",
+      "name" : "Page source",
+      "source" : "ddcad6547113607f.html",
+      "type" : "text/html",
+      "size" : 1049724
+    }, {
+      "uid" : "b8195c94204e8a01",
+      "name" : "Browser console logs",
+      "source" : "b8195c94204e8a01.txt",
+      "type" : "text/plain",
+      "size" : 106
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:cloud.autotests.tests.ParamTest]/[test-template:genTestButton(java.lang.String, java.lang.String)]/[test-template-invocation:#1]"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EMSLMPO"
+  }, {
+    "name" : "thread",
+    "value" : "16084@DESKTOP-EMSLMPO.Test worker(17)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "cloud.autotests.tests.ParamTest"
+  }, {
+    "name" : "testClass",
+    "value" : "cloud.autotests.tests.ParamTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "genTestButton"
+  }, {
+    "name" : "suite",
+    "value" : "cloud.autotests.tests.ParamTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "AaaYandex.re"
+  }, {
+    "name" : "arg1",
+    "value" : "Пожалуйста"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "25edbf794abeaea8.json",
+  "parameterValues" : [ "AaaYandex.re", "Пожалуйста" ]
+}

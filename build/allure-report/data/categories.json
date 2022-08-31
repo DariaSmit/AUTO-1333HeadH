@@ -1,0 +1,118 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "\r\nExpecting:\r\n  \"[2022-08-30T13:24:29.741Z] [SEVERE] chrome-extension://invalid/ - Failed to load resource: net::ERR_FAILED\"\r\nnot to contain:\r\n  \"SEVERE\"\r\n",
+      "children" : [ {
+        "name" : "Проверка консоли на ошибку SERVE",
+        "uid" : "f616a30312ab2461",
+        "parentUid" : "008d1884b01e826e8c420209a8d460fe",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661865865826,
+          "stop" : 1661865872646,
+          "duration" : 6820
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "008d1884b01e826e8c420209a8d460fe"
+    }, {
+      "name" : "Element should have attribute Пожалуйста {By.xpath: //*[@class=\"bloko-form-error bloko-form-error_entering\"]}\r\nElement: '<div class=\"bloko-form-error bloko-form-error_entering\" data-qa=\"field-error-login field-error-login_BAD_LOGIN\">Пожалуйста, укажите email или телефон</div>'\r\nActual value: Пожалуйста=\"null\"\r\nScreenshot: file:/D:/IDEA/AUTO-1333HeadH/build/reports/tests/1661877514447.0.png\r\nPage source: file:/D:/IDEA/AUTO-1333HeadH/build/reports/tests/1661877514447.0.html\r\nTimeout: 4 s.",
+      "children" : [ {
+        "name" : "genTestButton(String, String) проверка эмеил AaaYandex.re и ответа системы Пожалуйста",
+        "uid" : "fe10b7dc1170b35e",
+        "parentUid" : "fc47ea7f705957800e6f8760fc580795",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661877504672,
+          "stop" : 1661877516667,
+          "duration" : 11995
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 15,
+        "retriesStatusChange" : true,
+        "parameters" : [ "AaaYandex.re", "Пожалуйста" ]
+      } ],
+      "uid" : "fc47ea7f705957800e6f8760fc580795"
+    }, {
+      "name" : "Element not found {HH-VacancyResponsePopup-SignupForm}\r\nExpected: text \"Отправить код повторно можно через\"\r\nScreenshot: file:/D:/IDEA/AUTO-1333HeadH/build/reports/tests/1661878113867.0.png\r\nPage source: file:/D:/IDEA/AUTO-1333HeadH/build/reports/tests/1661878113867.0.html\r\nTimeout: 4 s.\r\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"HH-VacancyResponsePopup-SignupForm\"}",
+      "children" : [ {
+        "name" : "genTestButton()",
+        "uid" : "536e744066757",
+        "parentUid" : "34ff07fe6832f0a4c0d8fa4c1017f643",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661878102004,
+          "stop" : 1661878116147,
+          "duration" : 14143
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "34ff07fe6832f0a4c0d8fa4c1017f643"
+    }, {
+      "name" : "\r\nExpecting:\r\n  \"[2022-08-30T16:59:45.703Z] [SEVERE] chrome-extension://invalid/ - Failed to load resource: net::ERR_FAILED\"\r\nnot to contain:\r\n  \"SEVERE\"\r\n",
+      "children" : [ {
+        "name" : "Проверка консоли на ошибку SERVE",
+        "uid" : "47ffa000906b6706",
+        "parentUid" : "8a21ae7707ddf064723ce03757558bcd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1661878783303,
+          "stop" : 1661878788884,
+          "duration" : 5581
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8a21ae7707ddf064723ce03757558bcd"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "unknown error: cannot determine loading status\nfrom disconnected: received Inspector.detached event\n  (Session info: chrome=104.0.5112.102)\nBuild info: version: '4.1.4', revision: '535d840ee2'\nSystem info: host: 'DESKTOP-EMSLMPO', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [ba4d34bc3f168c46d9ef3ce86172b0ba, get {url=https://hh.ru/vacancy/69115572?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=QA%20automation%20engineer}]\nselenide.url: https://hh.ru/vacancy/69115572?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=QA%20automation%20engineer\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\darya\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65445}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65445/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: https://hh.ru\nSession ID: ba4d34bc3f168c46d9ef3ce86172b0ba",
+      "children" : [ {
+        "name" : "genTestButton(String, String) проверка эмеил Aaa@Yandex.ru и ответа системы null",
+        "uid" : "41137a1444d466e9",
+        "parentUid" : "57b286aeac4cbde0d4cd5c3896c28538",
+        "status" : "broken",
+        "time" : {
+          "start" : 1661877516788,
+          "stop" : 1661877532058,
+          "duration" : 15270
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 15,
+        "retriesStatusChange" : true,
+        "parameters" : [ "Aaa@Yandex.ru", "null" ]
+      } ],
+      "uid" : "57b286aeac4cbde0d4cd5c3896c28538"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

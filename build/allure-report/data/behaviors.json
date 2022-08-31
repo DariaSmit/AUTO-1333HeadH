@@ -1,0 +1,225 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Проверка консоли на ошибку SERVE",
+    "uid" : "f616a30312ab2461",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1661865865826,
+      "stop" : 1661865872646,
+      "duration" : 6820
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "проверка кнопки 'Откликнуться'",
+    "uid" : "964de95f4ce3c009",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1661869335698,
+      "stop" : 1661869342560,
+      "duration" : 6862
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 5,
+    "retriesStatusChange" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "проверка кнопки 'Откликнуться' и проверка появления ошибки на некорректный адрес",
+    "children" : [ {
+      "name" : "genTestButton(String, String) проверка эмеил AaaYandex.re и ответа системы Пожалуйста",
+      "uid" : "fe10b7dc1170b35e",
+      "parentUid" : "5cdde324c882b420f8e4004028b9d723",
+      "status" : "failed",
+      "time" : {
+        "start" : 1661877504672,
+        "stop" : 1661877516667,
+        "duration" : 11995
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 15,
+      "retriesStatusChange" : true,
+      "parameters" : [ "AaaYandex.re", "Пожалуйста" ]
+    }, {
+      "name" : "genTestButton(String, String) проверка эмеил Aaa@Yandex.ru и ответа системы null",
+      "uid" : "41137a1444d466e9",
+      "parentUid" : "5cdde324c882b420f8e4004028b9d723",
+      "status" : "broken",
+      "time" : {
+        "start" : 1661877516788,
+        "stop" : 1661877532058,
+        "duration" : 15270
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 15,
+      "retriesStatusChange" : true,
+      "parameters" : [ "Aaa@Yandex.ru", "null" ]
+    } ],
+    "uid" : "5cdde324c882b420f8e4004028b9d723"
+  }, {
+    "name" : "проверка кнопки 'Откликнуться'",
+    "children" : [ {
+      "name" : "genTestButton()",
+      "uid" : "536e744066757",
+      "parentUid" : "2978580095cfbc8d3d8900534fedd3a0",
+      "status" : "failed",
+      "time" : {
+        "start" : 1661878102004,
+        "stop" : 1661878116147,
+        "duration" : 14143
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2978580095cfbc8d3d8900534fedd3a0"
+  }, {
+    "name" : "проверка кнопки 'Откликнуться' c корректным эмеил",
+    "children" : [ {
+      "name" : "genTestButtonTr()",
+      "uid" : "1b92c27514e9f154",
+      "parentUid" : "28cc4acdc3f25add60abb3f7a99e6a13",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661878587058,
+        "stop" : 1661878594331,
+        "duration" : 7273
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 6,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "genTestButtonTr()",
+      "uid" : "ea6d4c7db8c7d18b",
+      "parentUid" : "28cc4acdc3f25add60abb3f7a99e6a13",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661878753867,
+        "stop" : 1661878761417,
+        "duration" : 7550
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "28cc4acdc3f25add60abb3f7a99e6a13"
+  }, {
+    "name" : "проверка кнопки 'Откликнуться' с некорректным эмеил",
+    "children" : [ {
+      "name" : "genTestButton()",
+      "uid" : "27b85a7f3cef87be",
+      "parentUid" : "32397cd7535013a25d9a86700a127a85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1661878761489,
+        "stop" : 1661878767624,
+        "duration" : 6135
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "32397cd7535013a25d9a86700a127a85"
+  }, {
+    "name" : "Проверка ключевых слов в описании",
+    "uid" : "606a9f306cbf7719",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1661878767635,
+      "stop" : 1661878772918,
+      "duration" : 5283
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 15,
+    "retriesStatusChange" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "Проверка интерактивности элемента",
+    "uid" : "e334c229e23c96fb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1661878772922,
+      "stop" : 1661878778207,
+      "duration" : 5285
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 3,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Проверка заголовков",
+    "uid" : "d912f5b89a914cf4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1661878778210,
+      "stop" : 1661878783300,
+      "duration" : 5090
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 13,
+    "retriesStatusChange" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "Проверка консоли на ошибку SERVE",
+    "uid" : "47ffa000906b6706",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1661878783303,
+      "stop" : 1661878788884,
+      "duration" : 5581
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 3,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  } ]
+}
