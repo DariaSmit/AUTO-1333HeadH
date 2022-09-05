@@ -16,10 +16,12 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class GeneratedTests extends TestBase {
 
+
     @Test
     @Description("Проверка страницы вакансии на HH.ru")
     @DisplayName("Проверка заголовков")
     void generatedTest() {
+
         step("открыть hh.ru", () -> {
             Selenide.open("/vacancy/69115572?from=vacancy_search_list&hhtmFrom=vacancy_search_list&query=QA%20automation%20engineer");
         });

@@ -20,10 +20,10 @@ cloud/autotests/config/CredentialsConfig.java
  cloud.autotests.config.CredentialsConfig
 cloud/autotests/helpers/AllureRestAssuredFilter.java
  cloud.autotests.helpers.AllureRestAssuredFilter
-cloud/autotests/tests/GeneratedTests.java
- cloud.autotests.tests.GeneratedTests
 cloud/autotests/helpers/AllureAttachments.java
  cloud.autotests.helpers.AllureAttachments
+cloud/autotests/tests/GeneratedTests.java
+ cloud.autotests.tests.GeneratedTests
 cloud/autotests/tests/TestBase.java
  cloud.autotests.tests.TestBase
 cloud/autotests/tests/ButtonTest.java

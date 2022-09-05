@@ -22,25 +22,24 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 public class TestBase {
     @BeforeAll
     static void beforeAll() {
+        SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
         CredentialsConfig config = ConfigFactory.create(CredentialsConfig.class);
         DriverSettings.configure();
-        Configuration.baseUrl= "https://hh.ru";
-        Configuration.browserSize = "1920x1080";
-        Configuration.browserVersion = "100";
-        Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
+
+        Configuration.baseUrl = System.getProperty("baseUrl", "https://hh.ru");
+        Configuration.browserSize = System.getProperty("browserSize", "1920x1080");
+        Configuration.browserVersion = System.getProperty("browserVersion", "100");
+        Configuration.remote = "https://" + config.login() + ":" + config.password() + "@" + System.getProperty("remote", "selenoid.autotests.cloud/wd/hub");
     }
     @BeforeEach
     public void beforeEach() {
-        SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
-        CredentialsConfig config = ConfigFactory.create(CredentialsConfig.class);
 
-        DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setCapability("enableVNC", true);
-        capabilities.setCapability("enableVideo", true);
-        Configuration.browserCapabilities = capabilities;
-    }
-
-    @AfterEach
+            DesiredCapabilities capabilities = new DesiredCapabilities();
+            capabilities.setCapability("enableVNC", true);
+            capabilities.setCapability("enableVideo", true);
+            Configuration.browserCapabilities = capabilities;
+        }
+        @AfterEach
     public void afterEach() {
         String sessionId = DriverUtils.getSessionId();
 
